@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\src\Serilog.Sinks.SignalR.Core\Serilog.Sinks.SignalR.Core.csproj" />
+  </ItemGroup>
+
+</Project>
