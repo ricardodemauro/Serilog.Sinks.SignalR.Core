@@ -25,7 +25,7 @@ namespace Serilog.Sinks.SignalR.Core.Sinks
         public SignalRSink(IHubContext<THub, T> context,
                            int batchPostingLimit,
                            TimeSpan period,
-                           IFormatProvider formatProvider,
+                           IFormatProvider formatProvider = null,
                            string[] groupNames = null,
                            string[] userIds = null,
                            string[] excludedConnectionIds = null)
@@ -33,7 +33,7 @@ namespace Serilog.Sinks.SignalR.Core.Sinks
         {
             _hubContext = context ?? throw new ArgumentNullException(nameof(context));
 
-            _formatProvider = formatProvider ?? throw new ArgumentNullException(nameof(formatProvider));
+            _formatProvider = formatProvider;
             _groups = groupNames ?? Array.Empty<string>();
             _userIds = userIds ?? Array.Empty<string>();
             _excludedConnectionIds = excludedConnectionIds ?? Array.Empty<string>();

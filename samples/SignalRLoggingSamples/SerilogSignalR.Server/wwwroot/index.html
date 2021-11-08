@@ -3,24 +3,24 @@
 <head>
     <title>Sample SignalR Server</title>
     <link rel="stylesheet" href="https://unpkg.com/mvp.css">
+    <style>
+        ul {
+            list-style: none;
+            font-size: 12px;
+        }
+    </style>
 </head>
 <body>
     <section>
-        <form>
-            <header>
-                <h2>Form title</h2>
-            </header>
-            <label for="input1">Input label:</label>
-            <input type="text" id="input1" name="input1" size="20" placeholder="Input1">
-            <label for="select1">Select label:</label>
-            <select id="select1">
-                <option value="option1">option1</option>
-                <option value="option2">option2</option>
-            </select>
-            <label for="textarea1">Textarea label:</label>
-            <textarea cols="40" rows="5" id="textarea1"></textarea>
-            <button type="submit">Submit</button>
-        </form>
+        <div class="row">
+            <div class="col-6">
+                <ul id="messagesList"></ul>
+            </div>
+        </div>
     </section>
+
+
+    <script src="/libs/signalr.js"></script>
+    <script src="/js/index.js"></script>
 </body>
 </html>
