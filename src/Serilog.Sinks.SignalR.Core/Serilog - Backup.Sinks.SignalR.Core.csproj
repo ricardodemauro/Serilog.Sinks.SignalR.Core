@@ -7,7 +7,7 @@
 		<Authors>Ricardo Mauro</Authors>
 		<Company>rmauro.dev</Company>
 		<RepositoryType>git</RepositoryType>
-		<PackageTags>serilog;signalr;.NET5;aspnetcore;signalrcore</PackageTags>
+		<PackageTags>serilog;signalr</PackageTags>
 		<RepositoryUrl>https://github.com/ricardodemauro/Serilog.Sinks.SignalR.Core</RepositoryUrl>
 		<PackageProjectUrl>http://serilog.net</PackageProjectUrl>
 	</PropertyGroup>
