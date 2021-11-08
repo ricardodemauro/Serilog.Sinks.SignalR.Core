@@ -34,7 +34,6 @@ namespace Serilog.Sinks.SignalR.Core.Sinks
 
         private Task OnConnectionClosed(Exception arg)
         {
-            //throw new NotImplementedException();
             return Task.CompletedTask;
         }
 

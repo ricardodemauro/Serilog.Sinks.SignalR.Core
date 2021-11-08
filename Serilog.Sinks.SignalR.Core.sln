@@ -5,8 +5,6 @@ VisualStudioVersion = 17.0.31612.314
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Serilog.Sinks.SignalR.Core", "src\Serilog.Sinks.SignalR.Core\Serilog.Sinks.SignalR.Core.csproj", "{60C3DA7C-ABB6-4618-BAA2-31A65070C975}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serilog.SignalR.UI", "Serilog.SignalR.UI\Serilog.SignalR.UI.csproj", "{E706066F-3E2D-4B35-8B72-821D08044D0E}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,10 +15,6 @@ Global
 		{60C3DA7C-ABB6-4618-BAA2-31A65070C975}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60C3DA7C-ABB6-4618-BAA2-31A65070C975}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{60C3DA7C-ABB6-4618-BAA2-31A65070C975}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E706066F-3E2D-4B35-8B72-821D08044D0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E706066F-3E2D-4B35-8B72-821D08044D0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E706066F-3E2D-4B35-8B72-821D08044D0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E706066F-3E2D-4B35-8B72-821D08044D0E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
