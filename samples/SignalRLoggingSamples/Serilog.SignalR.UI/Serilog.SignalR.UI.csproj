@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\src\Serilog.Sinks.SignalR.Core\Serilog.Sinks.SignalR.Core.csproj" />
+    <ProjectReference Include="..\..\..\src\Serilog.Sinks.SignalR.Core\Serilog.Sinks.SignalR.Core.csproj" />
   </ItemGroup>
 
 </Project>
